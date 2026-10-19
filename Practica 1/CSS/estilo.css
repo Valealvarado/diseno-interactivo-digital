@@ -1,0 +1,170 @@
+body {
+    background-color: rgb(246, 238, 240);
+    margin:0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+    color: rgb(51, 37, 46);
+}
+
+#encabezado {
+    background-color: rgb(197, 144, 166);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logotipo {
+    height: auto;
+    width: 180px;
+    margin: 0;
+    margin-left: 40px;
+}
+
+#logotipo img {
+    height: auto;
+    width: 150px;
+}
+
+#menu {
+    margin-right: 40px;
+}
+
+#menu ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+menu a {
+    text-decoration: none;
+    color: rgb(246, 238, 240)   
+}
+
+/*--Sección Portada--*/
+
+#portada {
+    width: 100%;
+}
+
+#imgportada {
+    margin:0 auto; /*propiedad para centrar imagen*/
+    height: 280px;
+    width: 100%;
+}
+
+#imgportada img {
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/*--Sección Acerca de Mí--*/
+
+#acercademi {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#textoacercademi {
+    text-align: center;
+    width: 100%;
+}
+
+#acercademi a {
+    display: inline-block;
+    background-color: rgb(197, 144, 166);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+#perfil {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgperfil {
+    height: 300px;
+    width: 280px;
+    margin: 20px;
+}
+
+#presentación {
+    text-align: center;
+    width: 700px;
+}
+#presetación h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#presentación p {
+    margin-bottom: 25px;
+}
+
+#habilidadesyconocimientos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#habilidadesyconocimientos ul {
+    list-style: none;
+}
+
+.habilidades {
+    height: 200px;
+    width: 200px;
+    text-align: left;
+}
+
+#descarga {
+    text-align: center;
+    width: 100%;
+}
+
+/*--Portafolio--*/
+
+#portafolio {
+    text-align: center;
+}
+
+#trabajos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#trabajos img {
+    height: 200px;
+    width: 200px;
+}
+
+/*--Contacto--*/
+
+#contacto {
+    text-align: center;
+    width: 100%;
+}
+
+#información {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#imgperfil img {
+    height: 300px;
+    width: 280px;
+    object-fit: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
